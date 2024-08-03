@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Personajes de Star Wars</title>
+    <link rel="stylesheet" href="estilos/stylesTabla.css">
+</head>
+<body>
+
+<div class="container">
+    <label for="Inputid"><b>Ingresar ID del personaje de Star Wars</b></label>
+    <input type="number" name="Inputid" required id="Inputid">
+    <button onclick="consultarPersonaje()">Ver</button>
+</div>
+
+<br>
+
+<table class="container">
+    <thead>
+        <tr>
+            <th><h1>Nombre</h1></th>
+            <th><h1>Altura</h1></th>
+            <th><h1>Peso</h1></th>
+            <th><h1>Color de pelo</h1></th>
+            <th><h1>Color de piel</h1></th>
+            <th><h1>Color de ojos</h1></th>
+            <th><h1>Año de nacimiento</h1></th>
+            <th><h1>Género</h1></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr> 
+            <td id="nameid"></td>
+            <td id="heightid"></td>
+            <td id="massid"></td>
+            <td id="hair_colorid"></td>
+            <td id="skin_colorid"></td>
+            <td id="eye_colorid"></td>
+            <td id="birth_yearid"></td>
+            <td id="genderid"></td>
+        </tr>
+    </tbody>
+</table>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
